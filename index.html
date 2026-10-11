@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Academy</title>
+</head>
+<body bgcolor="#e8f5f5" text="#202020">
+    <header>
+        <table width="100%" cellpadding="10" bgcolor="#ffffff">
+            <tr>
+                <td width="30%"><h1><font color="#17696a">Global Academy</font></h1></td>
+                <td align="right"><label for="search">Search </label><input type="search" id="search" name="search"></td>
+            </tr>
+        </table>
+        <nav>
+            <table width="100%" cellpadding="12" bgcolor="#126366">
+                <tr align="center">
+                    <td><a href="#dashboard"><font color="#ffffff">Dashboard</font></a></td>
+                    <td><a href="#courses"><font color="#ffffff">My Courses</font></a></td>
+                    <td><a href="#resources"><font color="#ffffff">Resources</font></a></td>
+                    <td><a href="#support"><font color="#ffffff">Help</font></a></td>
+                </tr>
+            </table>
+        </nav>
+    </header>
+
+    <main id="dashboard">
+        <table width="100%" cellpadding="8">
+            <tr valign="top">
+                <td width="22%">
+                    <aside>
+                        <table width="100%" cellpadding="8" border="1" bgcolor="#ffffff">
+                            <tr bgcolor="#197b7c"><th><font color="#ffffff">Quick Access</font></th></tr>
+                            <tr><td><a href="#announcements">Announcements</a></td></tr>
+                            <tr bgcolor="#fff0df"><td><a href="#schedule">Calendar Events</a></td></tr>
+                            <tr><td><a href="#schedule">Grades</a></td></tr>
+                            <tr><td><a href="#resources">Faculty Directory</a></td></tr>
+                        </table>
+                    </aside>
+                </td>
+                <td>
+                    <section>
+                        <table width="100%" cellpadding="8" bgcolor="#ffffff" border="1">
+                            <tr bgcolor="#269b9b"><th align="left"><font color="#ffffff">Learning Hub</font></th></tr>
+                            <tr bgcolor="#145d60"><td align="center"><h2><font color="#ffffff">Welcome Back</font></h2><p><font color="#ffffff">Join your courses and connect with the community.</font></p></td></tr>
+                        </table>
+                    </section>
+
+                    <table width="100%" cellpadding="5">
+                        <tr valign="top">
+                            <td width="65%">
+                                <section id="courses">
+                                    <table width="100%" cellpadding="6" border="1" bgcolor="#ffffff">
+                                        <tr bgcolor="#f29a43"><th colspan="5" align="left">Course Schedule</th></tr>
+                                        <tr bgcolor="#17696a"><th><font color="#ffffff">Module</font></th><th><font color="#ffffff">Topic</font></th><th><font color="#ffffff">Instructor</font></th><th><font color="#ffffff">Date</font></th><th><font color="#ffffff">Status</font></th></tr>
+                                        <tr bgcolor="#e8f5f5"><td>Module 1</td><td>Learning Courses</td><td>John B.</td><td>8/12/2024</td><td>Complete</td></tr>
+                                        <tr bgcolor="#ffffff"><td>Module 1</td><td>Experimental Learning</td><td>Berni M.</td><td>3/11/2024</td><td>Complete</td></tr>
+                                        <tr bgcolor="#e8f5f5"><td>Module 2</td><td>Student Schedule</td><td>Geman S.</td><td>8/12/2024</td><td>Success</td></tr>
+                                        <tr bgcolor="#ffffff"><td>Module 2</td><td>Developmental Learning</td><td>Flaschhster</td><td>0/12/2024</td><td>Success</td></tr>
+                                        <tr bgcolor="#e8f5f5"><td>Module 3</td><td>Student Learning</td><td>Mariw M.</td><td>9/12/2024</td><td>Complete</td></tr>
+                                    </table>
+                                </section>
+                            </td>
+                            <td>
+                                <section id="resources">
+                                    <table width="100%" cellpadding="8" border="1" bgcolor="#ffffff">
+                                        <tr bgcolor="#f29a43"><th align="left">Recommended Reading</th></tr>
+                                        <tr><td><article><h3>Recommended Articles</h3><p>Read articles chosen for your courses.</p></article></td></tr>
+                                        <tr bgcolor="#e8f5f5"><td><article><h3>Learning Resources</h3><p>Explore more resources for your studies.</p></article></td></tr>
+                                    </table>
+                                </section>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <section id="support">
+            <table width="100%" cellpadding="8" border="1" bgcolor="#ffffff">
+                <tr bgcolor="#269b9b"><th align="left"><font color="#ffffff">Feedback &amp; Support</font></th></tr>
+                <tr><td>
+                    <form action="#support" method="post">
+                        <table width="100%" cellpadding="5">
+                            <tr>
+                                <td width="50%"><label for="subject">Subject</label><br><input type="text" id="subject" name="subject" size="35" required></td>
+                                <td width="50%"><label for="category">Category</label><br>
+                                    <select id="category" name="category" required>
+                                        <option value="">Select Category</option>
+                                        <option value="question">Question</option>
+                                        <option value="support">Support</option>
+                                        <option value="request">Request</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr><td colspan="2"><label for="message">Your Message</label><br><textarea id="message" name="message" rows="5" cols="80" required></textarea></td></tr>
+                            <tr><td colspan="2"><button type="submit">Send</button></td></tr>
+                        </table>
+                    </form>
+                </td></tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <table width="100%" cellpadding="10" bgcolor="#126366">
+            <tr><td><font color="#ffffff">About Us　 |　 Privacy Policy　 |　 Terms of Use　 |　 Contact</font></td><td align="right"><font color="#ffffff">Global Academy</font></td></tr>
+        </table>
+    </footer>
+</body>
+</html>
